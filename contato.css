@@ -1,0 +1,90 @@
+#contato .bebidas-header ul li .btn-ligado {
+    /* a cor esta do global */
+    border-radius: 10px;
+    padding: 6px;
+}    
+
+.singup .signup-cad label {
+    margin-left: 235px;
+
+}
+
+.singup .signup-cad input {
+    margin-left: 235px;
+
+}
+
+.signup-tex {
+    width: 1063px;
+    margin-left: 235px;
+    height: 363px;
+    border: 1px solid var(--back-bebidas);
+}
+
+.contato-enviar {
+    display: grid;
+    color: var(--titulo-banner);
+    justify-content: center;
+    background: var(--btn-base);
+    padding: 20px 80px 20px 80px;
+    font-family: 'Roboto';
+    width: 66px;
+    height: 28;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    margin-left: 1130px;
+}
+
+@media (max-width:800px) {
+    .singup .signup-cad input,
+    .singup .signup-cad label,
+    .singup .signup-cad textarea {
+        margin-left: 20px;
+    }
+    .contato-enviar {
+        margin-left: 20px;
+    }
+    #contato .bebidas-header {
+        height: 300px;
+    }
+    #contato .home-setor .btn-ligado {
+        margin-top: 15px;
+    }
+    #contato .home-setor {
+        margin-left: 100px;
+    }
+    #contato .footer .home-rede h1 {
+        display: none;
+    }
+    #contato .footer .home-rede  {
+        display: grid;
+        margin-left: 280px;
+    }
+
+}
+
+@media (max-width:500px) {
+    .singup .signup-cad input,
+    .singup .signup-cad label,
+    .singup .signup-cad textarea {
+        margin-top: 30px;
+    }
+    #contato .bebidas-header {
+        height: 400px;
+    }
+    #contato .home-setor {
+        margin-left: 0px;
+    }
+    #contato .home-setor .btn-ligado {
+        margin-left: 15px;
+    }
+   
+    #contato .footer .home-rede  {
+    
+        margin-left: 80px;
+    }
+}
+
+  

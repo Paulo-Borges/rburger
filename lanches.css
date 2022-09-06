@@ -1,0 +1,39 @@
+.beb-sabor h1 {
+    margin-bottom: 60px;
+}
+@media (max-width:800px) {
+    #lanches .footer .home-rede h1 {
+    display: none;
+}
+    #lanches .footer .home-rede  {
+    display: grid;
+    margin-left: 280px;
+}
+
+}
+
+
+@media (max-width:500px) {
+    #lanches .bebidas-header {
+        height: 400px;
+    }
+    #lanches .bebidas-sabor h1 {
+        margin-top: 50px;
+        display: block;
+        margin-left: 0px;
+    }
+    #lanches .bebidas-setor  {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: -50px;
+    }
+    #lanches .footer .home-rede {
+        margin-left: 80px;
+    }
+    
+}
+
+
+
+
+
